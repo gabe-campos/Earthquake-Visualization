@@ -99,7 +99,7 @@ y = gfx.MathUtils.rescale(x, xmin, xmax, ymin, ymax);
 
 Avalaible at:
 ```
-https://csci-4611-spring-2023.github.io/your-repo-name-here
+https://csci-4611-spring-2023.github.io/assignment-3-gabe-campos
 ```
 
 
