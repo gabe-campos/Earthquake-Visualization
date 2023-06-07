@@ -16,6 +16,12 @@ For this assignment, you will be working with data from NASA and the USGS to vis
 
 You can try out the [instructor's implementation](https://csci-4611-spring-2023.github.io/Builds/Assignment-3) in the Builds repository on the course GitHub. 
 
+## Where to see completed program in action
+Avalaible at:
+```
+https://csci-4611-spring-2023.github.io/assignment-3-gabe-campos
+```
+
 ## Prerequisites
 
 To work with this code, you will first need to install [Node.js 18.13.0 LTS](https://nodejs.org/) and [Visual Studio Code](https://code.visualstudio.com/). 
@@ -95,11 +101,6 @@ GopherGfx conveniently provides a rescale function, which would be called as fol
 
 ```typescript
 y = gfx.MathUtils.rescale(x, xmin, xmax, ymin, ymax);
-```
-
-Avalaible at:
-```
-https://csci-4611-spring-2023.github.io/assignment-3-gabe-campos
 ```
 
 
