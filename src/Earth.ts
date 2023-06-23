@@ -88,31 +88,6 @@ export class Earth extends gfx.Transform3
         }
 
 
-        // mapVertices.push(this.convertLatLongToPlane(-90, -180)); // lower left
-        // mapVertices.push(this.convertLatLongToPlane(-90, 180)); // lower right
-        // mapVertices.push(this.convertLatLongToPlane(90, 180)); // upper right
-        // mapVertices.push(this.convertLatLongToPlane(90, -180)); // upper left
-
-        // // The flat map normals are always directly outward towards the camera
-        // mapNormals.push(gfx.Vector3.BACK);
-        // mapNormals.push(gfx.Vector3.BACK);
-        // mapNormals.push(gfx.Vector3.BACK);
-        // mapNormals.push(gfx.Vector3.BACK);
-
-        // Define indices into the array for the two triangles
-        //const indices: number[] = [];
-        // indices.push(0, 1, 2); // bottom left triangle
-        // indices.push(0, 2, 3); // bottom right triangle
-
-        // Part 2: Texturing the Mesh
-        // Again, you should replace the example code below
-        // with texture coordinates for the earth mesh.
-        //const texCoords: number[] = [];
-        // texCoords.push(0, 0);
-        // texCoords.push(1, 0);
-        // texCoords.push(0, 1);
-        // texCoords.push(1, 1);
-
         // Set all the earth mesh data
         this.earthMesh.setVertices(mapVertices, true);
         this.earthMesh.setNormals(mapNormals, true);
